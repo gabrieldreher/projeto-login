@@ -10,6 +10,8 @@
     --cor1: #8DC6F1;
     --cor2: #5f2c82;
     --cor3: #000000;
+    --cor4: #74a3c7;
+    --cor5: #9243c7;
 }
 
 * {
@@ -39,8 +41,8 @@ section#login {
     overflow: hidden;
 
     background-color: var(--cor0);
-    width: 270px;
-    height: 500px;
+    width: 250px;
+    height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
@@ -71,6 +73,66 @@ article#formulario > p {
     font-size: 0.8em;
 }
 
-span {
+form > div.campomail {
+    background-color: var(--cor5);
+    color: var(--cor0);
+    height: 40px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 5px 0px;
+}
+
+form > div.campopass {
+    background-color: var(--cor5);
+    color: var(--cor0);
+    height: 40px;
+    margin: 5px 0px;
+}
+
+label {
+    display: none;
+}
+
+form > a.botao > span {
     vertical-align: middle;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border: none;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--cor4);
+    color: var(--cor0);
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 5px;
+    background-color: var(--cor0);
+    color: var(--cor3);
+    border: 1px solid var(--cor2);
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: var(--cor5);
+    color: var(--cor0);
+}
+
+form > a.botao > span {
+    font-size: 0.8em;
+    padding-top: 3px;
 }
