@@ -12,7 +12,7 @@ Grandes telas: acima de 1200px
 
 :root {
     --cor0: #ffffff;
-    --cor1: #49a09d;
+    --cor1: #8DC6F1;
     --cor2: #5f2c82;
     --cor3: #000000;
 }
@@ -36,6 +36,15 @@ Grandes telas: acima de 1200px
         float: right;
         width: 70%;
     }
+
+    article#formulario > h1 {
+        font-size: 1.8em;
+    
+    }
+    
+    article#formulario > p {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -48,13 +57,22 @@ Grandes telas: acima de 1200px
     }
 
     section#login > article#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > article#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    article#formulario > h1 {
+        font-size: 2em;
+    
+    }
+    
+    article#formulario > p {
+        font-size: 1.2em;
     }
 }

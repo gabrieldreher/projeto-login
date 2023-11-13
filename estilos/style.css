@@ -7,7 +7,7 @@
 
 :root {
     --cor0: #ffffff;
-    --cor1: #49a09d;
+    --cor1: #8DC6F1;
     --cor2: #5f2c82;
     --cor3: #000000;
 }
@@ -39,7 +39,7 @@ section#login {
     overflow: hidden;
 
     background-color: var(--cor0);
-    width: 250px;
+    width: 260px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -59,4 +59,18 @@ section#login > article#imagem {
 section#login > article#formulario {
     display: block;
     padding: 10px;
+}
+
+article#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+article#formulario > p {
+    font-size: 0.8em;
+}
+
+span {
+    vertical-align: middle;
 }
