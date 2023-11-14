@@ -17,13 +17,14 @@ Grandes telas: acima de 1200px
     --cor3: #000000;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /*  CONFIGURAÇÕES PARA TABLET */
     body {
         background-image: linear-gradient(to top, var(--cor2), var(--cor1));
     }
 
     section#login {
         width: 80vw;
+        height: 350px;
     }
 
     section#login > article#imagem {
@@ -44,16 +45,18 @@ Grandes telas: acima de 1200px
     
     article#formulario > p {
         font-size: 1em;
+        margin-bottom: 30px;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /*  CONFIGURAÇÕES PARA DESKTOP E TELAS MAIORES */
     body {
         background-image: linear-gradient(to left, var(--cor1), var(--cor2));
     }
 
     section#login {
         width: 950px;
+        height: 400px;
     }
 
     section#login > article#imagem {
@@ -74,5 +77,6 @@ Grandes telas: acima de 1200px
     
     article#formulario > p {
         font-size: 1.2em;
+        margin-bottom: 30px;
     }
 }
